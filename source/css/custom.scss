@@ -1,0 +1,36 @@
+// $family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-serif: "Roboto", sans-serif;
+// $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
+$family-mono: "Roboto Mono", monospace;
+$border-color: #dbdbdb;
+
+.article {
+    p {
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+
+    p.subtitle {
+        margin-top: -15px;
+        font-size: 0.9rem;
+        color: gray;
+    }
+
+    blockquote.colorquote {
+        p {
+            margin-top: 0px;
+        }
+
+    }
+
+    blockquote.pullquote {
+        p {
+            margin-top: 0px;
+            font-size: 0.9rem;
+        }
+    }
+
+    li {
+        font-size: 18px;
+    }
+}
